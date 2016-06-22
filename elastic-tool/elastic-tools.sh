@@ -1,10 +1,10 @@
 #!/bin/sh
 # author : Sarah Bourgeois
-# Description : script which permitt to managing your elastic stack
+# Description : script allows to manage your elastic stack
 
 
 #Configuration file
-# TODO lire fichier de Configuration
+#Unuse for the moment
 
 
 #User Configuration
@@ -111,4 +111,4 @@ then
   status
 fi
 
-#TODO parcourir le json ==> if true : mettre une phrase plus efficace
+
