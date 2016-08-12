@@ -1,2 +1,2 @@
 # elastic-Stack-Script
-Scripts who can permits you to manage easily the elastic stack (elasticsearch-kibana-logstash)
+Scripts which allows to easily manage your Elastic Stack (elasticsearch-kibana-logstash)
