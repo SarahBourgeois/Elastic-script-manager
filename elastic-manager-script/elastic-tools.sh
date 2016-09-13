@@ -64,7 +64,7 @@ delete_kibana () {
 }
 
 health () {
-  curl –XGET $ELASTICSEARCH_HOST/_cluster/health?pretty=true
+curl -i –XGET $ELASTICSEARCH_HOST/_cluster/health?pretty=true
 }
 
 status () {
@@ -110,5 +110,3 @@ if [[ $1 = 'status' ]];
 then
   status
 fi
-
-
