@@ -64,7 +64,7 @@ delete_kibana () {
 }
 
 health () {
-  curl –XGET $ELASTICSEARCH_HOST/_cluster/health?pretty=true
+  curl -i –XGET $ELASTICSEARCH_HOST/_cluster/health?pretty=true
 }
 
 status () {
@@ -74,7 +74,7 @@ status () {
 
 
 #######################################
-###Arguments to use the Nudge script###
+###Arguments to use cript###
 #######################################
 if [[ $1 = '' ]];
 then
