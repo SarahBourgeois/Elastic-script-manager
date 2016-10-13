@@ -2,11 +2,6 @@
 # author : Sarah Bourgeois
 # Description : script allows to manage your elastic stack
 
-
-#Configuration file
-#Unuse for the moment
-
-
 #User Configuration
 ELASTICSEARCH_HOST=http://localhost:9200
 KIBANA_INDEX=".kibana"
