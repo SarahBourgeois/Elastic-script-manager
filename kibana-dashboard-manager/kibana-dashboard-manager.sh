@@ -12,7 +12,7 @@ DIR=dash
 
 printf "\n"
 echo "-------------------------------------------------"
-echo "              kibana_dashboard_init              "
+echo "              kibana_dashboard_manager             "
 echo "-------------------------------------------------"
 printf "\n"
 
