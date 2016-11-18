@@ -2,11 +2,6 @@
 # author : Sarah Bourgeois
 # Description : script allows to manage your elastic stack
 
-
-#Configuration file
-#Unuse for the moment
-
-
 #User Configuration
 ELASTICSEARCH_HOST=http://localhost:9200
 KIBANA_INDEX=".kibana"
@@ -64,7 +59,11 @@ delete_kibana () {
 }
 
 health () {
+<<<<<<< HEAD
 curl -i –XGET $ELASTICSEARCH_HOST/_cluster/health?pretty=true
+=======
+  curl -i –XGET $ELASTICSEARCH_HOST/_cluster/health?pretty=true
+>>>>>>> 56d6af12edc12f86d435e985160bc71654ba257c
 }
 
 status () {
@@ -74,7 +73,7 @@ status () {
 
 
 #######################################
-###Arguments to use the Nudge script###
+###Arguments to use cript###
 #######################################
 if [[ $1 = '' ]];
 then
