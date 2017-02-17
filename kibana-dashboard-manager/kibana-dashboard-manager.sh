@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author : Sarah Bourgeois
-# Description : import visualizations and dashboards directly on your Kibana thanks to the Nudge connector.
+# Description : import visualizations and dashboards directly on your own kibana.
 
 #Elastic Stack parameters
 ELASTICSEARCH_HOST="http://localhost:9200"
@@ -19,8 +19,8 @@ printf "\n"
 # Help to use correctly arguments
 help_command () {
   echo  "help :
-  import       ==> to import vizualisation and dashboards from Nudge data
-  delete_all   ==> to delete Nudge vizualisations and dashboards which are in your .kibana:
+  import       ==> to import vizualisation and dashboards from json your json file
+  delete_all   ==> to delete  vizualisations and dashboards which are in your .kibana:
   delete_visu  ==> to delete vizualisations one per one
   delete_dash  ==> to delete dashboards one per one"
   printf "\n"
