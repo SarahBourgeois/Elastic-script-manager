@@ -24,6 +24,8 @@ $ chmod +x elastic-tool.sh
 $ ./elastic-tool.sh
 ```
 
+
+## Usage
 You access to different properties  : 
 
 
@@ -42,4 +44,6 @@ You access to different properties  :
   So you can do for example : 
   ```
 $ ./elastic-tool.sh delete_index
+$ delete which index ? name_index-2017-06-* // for an index with date, delete all index in june for this example
 ```
+
